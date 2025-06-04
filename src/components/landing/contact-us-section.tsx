@@ -14,13 +14,13 @@ export default function ContactUsSection() {
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
           <Button variant="default" size="lg" asChild className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-8 py-3 rounded-lg shadow-xl transition-transform transform hover:scale-105">
-            <a href="mailto:contact@sefferexports.com">
-              <Mail className="mr-2 h-5 w-5" /> Email Us: contact@sefferexports.com
+            <a href="mailto:jeffinjosev2@gmail.com">
+              <Mail className="mr-2 h-5 w-5" /> Email Us: jeffinjosev2@gmail.com
             </a>
           </Button>
           <Button variant="outline" size="lg" asChild className="text-lg px-8 py-3 rounded-lg shadow-xl transition-transform transform hover:scale-105 border-primary text-primary hover:bg-primary/10">
-            <a href="tel:+1234567890">
-              <Phone className="mr-2 h-5 w-5" /> Call Us: +1 (234) 567-890
+            <a href="tel:+919567110457">
+              <Phone className="mr-2 h-5 w-5" /> Call or WhatsApp: +91 9567110457
             </a>
           </Button>
         </div>

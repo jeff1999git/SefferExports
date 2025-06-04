@@ -6,7 +6,7 @@ export default function HeroSection() {
   return (
     <section id="hero" className="relative h-[85vh] min-h-[500px] md:min-h-[600px] flex items-center justify-center text-center text-white">
       <Image
-        src="https://placehold.co/1920x1080.png"
+        src="https://res.cloudinary.com/dtmaf67dy/image/upload/v1749038887/chuttersnap-fN603qcEA7g-unsplash_xdsurj.jpg"
         alt="Global garment shipping background"
         layout="fill"
         objectFit="cover"

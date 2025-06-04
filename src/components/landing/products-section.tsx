@@ -2,12 +2,12 @@ import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const products = [
-  { name: 'T-Shirts', image: 'https://placehold.co/400x300.png', hint: 't-shirt apparel' },
-  { name: 'Formal Shirts', image: 'https://placehold.co/400x300.png', hint: 'formal shirt business' },
-  { name: 'Dresses', image: 'https://placehold.co/400x300.png', hint: 'dress fashion' },
-  { name: 'Jeans & Trousers', image: 'https://placehold.co/400x300.png', hint: 'jeans trousers' },
-  { name: 'Sportswear', image: 'https://placehold.co/400x300.png', hint: 'sportswear active' },
-  { name: 'Kidswear', image: 'https://placehold.co/400x300.png', hint: 'kidswear children' },
+  { name: 'T-Shirts', image: 'https://res.cloudinary.com/dtmaf67dy/image/upload/v1749039122/parker-burchfield-tvG4WvjgsEY-unsplash_zfnfgx.jpg', hint: 't-shirt apparel' },
+  { name: 'Formal Shirts', image: 'https://res.cloudinary.com/dtmaf67dy/image/upload/v1749039227/nimble-made-SY0mVo-MRQ8-unsplash_2_uw3zx2.jpg', hint: 'formal shirt business' },
+  { name: "Women's Dresses", image: 'https://res.cloudinary.com/dtmaf67dy/image/upload/v1749039323/salome-jangulashvili--CN55xnIDIw-unsplash_sdk5ix.jpg', hint: 'dress fashion' },
+  { name: 'Jeans & Trousers', image: 'https://res.cloudinary.com/dtmaf67dy/image/upload/v1749039696/tuananh-blue-xmwOCSgV_Z4-unsplash_pcvxiz.jpg', hint: 'jeans trousers' },
+  { name: 'Sportswear', image: 'https://res.cloudinary.com/dtmaf67dy/image/upload/v1749039695/abhay-siby-mathew-LmEuUMbd5Rw-unsplash_rjgwqr.jpg', hint: 'sportswear active' },
+  { name: 'Kidswear', image: 'https://res.cloudinary.com/dtmaf67dy/image/upload/v1749039695/nick-de-partee-5DLBoEX99Cs-unsplash_dnuok8.jpg', hint: 'kidswear children' },
 ];
 
 export default function ProductsSection() {
