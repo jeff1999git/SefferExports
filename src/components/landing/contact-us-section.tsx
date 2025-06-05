@@ -18,11 +18,21 @@ export default function ContactUsSection() {
               <Mail className="mr-2 h-5 w-5" /> Email Us: jeffinjosev2@gmail.com
             </a>
           </Button>
-          <Button variant="outline" size="lg" asChild className="text-lg px-8 py-3 rounded-lg shadow-xl transition-transform transform hover:scale-105 border-primary text-primary hover:bg-primary/10">
-            <a href="tel:+919567110457">
-              <Phone className="mr-2 h-5 w-5" /> Call or WhatsApp: +91 9567110457
+          <Button
+            variant="outline"
+            size="lg"
+            asChild
+            className="text-lg px-8 py-3 rounded-lg shadow-xl transition-transform transform hover:scale-105 border-green-500 text-green-600 hover:bg-green-100"
+          >
+            <a
+              href="https://wa.me/919567110457?text=Hi%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Phone className="mr-2 h-5 w-5" /> WhatsApp: +91 9567110457
             </a>
           </Button>
+
         </div>
       </div>
     </section>
