@@ -14,8 +14,8 @@ export default function ContactUsSection() {
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
           <Button variant="default" size="lg" asChild className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-8 py-3 rounded-lg shadow-xl transition-transform transform hover:scale-105">
-            <a href="mailto:jeffinjosev2@gmail.com">
-              <Mail className="mr-2 h-5 w-5" /> Email Us: jeffinjosev2@gmail.com
+            <a href="mailto:exportsseffer@gmail.com">
+              <Mail className="mr-2 h-5 w-5" /> Email Us: exportsseffer@gmail.com
             </a>
           </Button>
           <Button
@@ -29,7 +29,7 @@ export default function ContactUsSection() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Phone className="mr-2 h-5 w-5" /> WhatsApp: +91 9567110457
+              <Phone className="mr-2 h-5 w-5" /> WhatsApp: +91 95671 10457
             </a>
           </Button>
 
