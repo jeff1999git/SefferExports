@@ -29,7 +29,7 @@ export default function ContactUsSection() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Phone className="mr-2 h-5 w-5" /> WhatsApp: +91 95671 10457
+              <Phone className="mr-2 h-5 w-5" /> WhatsApp: +91 73060 67616
             </a>
           </Button>
 
