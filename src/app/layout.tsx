@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
+import HydrationFix from '@/components/hydration-fix';
 
 export const metadata: Metadata = {
-  title: 'Seffer Global - Worldwide Garment Exporters',
+  title: 'Seffer Exports - Worldwide Garment Exporters',
   description: 'Seffer Exports is a trusted exporter of garments ranging from everyday wear to luxury fashion. We deliver quality and trust worldwide.',
 };
 
@@ -20,6 +21,7 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
       </head>
       <body className="font-body antialiased">
+        <HydrationFix />
         {children}
         <Toaster />
       </body>

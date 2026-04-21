@@ -25,9 +25,11 @@ export default function ProductsSection() {
                   <Image
                     src={product.image}
                     alt={product.name}
-                    layout="fill"
-                    objectFit="cover"
-                    className="absolute top-0 left-0 w-full h-full"
+                    fill
+                    style={{
+                      objectFit: 'cover',
+                    }}
+                    className="absolute inset-0 w-full h-full"
                     data-ai-hint={product.hint}
                   />
                 </div>

@@ -14,8 +14,8 @@ export default function ContactUsSection() {
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
           <Button variant="default" size="lg" asChild className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-8 py-3 rounded-lg shadow-xl transition-transform transform hover:scale-105">
-            <a href="mailto:exportsseffer@gmail.com">
-              <Mail className="mr-2 h-5 w-5" /> Email Us: exportsseffer@gmail.com
+            <a href="mailto:contact@sefferexports.com">
+              <Mail className="mr-2 h-5 w-5" /> Email Us: contact@sefferexports.com
             </a>
           </Button>
           <Button
